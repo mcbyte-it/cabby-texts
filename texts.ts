@@ -1,8 +1,10 @@
 type Text = {
-  category: string;
-  weight?: number; // > 1
-  chanceOfPlaying?: number; // 0 - 1
-  runtimeGenerated?: boolean;
+  category: string; // Category of the text. If the same category is used in multiple texts, only one of them will be played if text is triggered by flightStateChange event.
+  weight?: number; // >= 1, default 1. This may be useful when determining which text to play when multiple texts are in the same category, and one of them should be played more often than others (basing on conditions for example).
+  chanceOfPlaying?: number; // 0 - 1. If set, the text will be played with this chance. If not set, the text will always be played.
+  runtimeGenerated?: boolean; // If set to true, the text will be generated at runtime, not in pre-flight generation. This may be useful when the text should be generated based on the current state of the flight (e.g. captain random information about the flight).
+
+  // Trigger event
   trigger: {
     event: 'simValueChanged';
     key: string[];
@@ -19,6 +21,8 @@ type Text = {
     key: string[];
     newValue: number[];
   },
+
+  // Additional conditions. If trigger was met, the text will be played only if all conditions are met.
   conditions?: ({
     type: 'flightState' | 'settingActive' | 'settingNotActive' | 'airlineCode';
     value: string[];
@@ -27,7 +31,11 @@ type Text = {
     key: string;
     value: (string|number)[];
   })[];
+
+  // Timeout for the text to be played after the trigger event was met. The text will be played after a random time between the two values (in seconds).
   timeout: [number, number],
+
+  // Set of texts in different languages. One of them will be played randomly
   texts: {
     [key: string]: string;
   }[];
