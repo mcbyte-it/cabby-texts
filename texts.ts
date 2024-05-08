@@ -12,7 +12,7 @@ type Text = {
   } | {
     event: 'flightStateChange';
     value: string[];
-    ignoreFlightStateChange?: string[];
+    ignoreFlightStateChange?: string[]; // By default, Cabby will ignore messages scheduled to be played during one phase, when the flight state changes to another phase. If you want to play the message anyway, you can add the flight state to this array.
   } | {
     event: 'messagePlayed';
     category: string[];
