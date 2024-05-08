@@ -56,17 +56,20 @@ const texts: Text[] = [
       {
         "en": "Ladies and gentlemen, we are expecting some light turbulence ahead. Please return to your seats and fasten your seat belts.",
         "pl": "Szanowni państwo, spodziewamy się lekkich turbulencji. Prosimy o powrót na miejsca i zapięcie pasów bezpieczeństwa.",
-        "de": "Sehr geehrte Damen und Herren, wir rechnen mit leichten Turbulenzen. Bitte kehren Sie zu Ihren Plätzen zurück und schnallen Sie sich an."
+        "de": "Sehr geehrte Damen und Herren, wir rechnen mit leichten Turbulenzen. Bitte kehren Sie zu Ihren Plätzen zurück und schnallen Sie sich an.",
+        "pt": "Senhoras e senhores, nós esperamos uma leve turbulência a frente. Por favor, retornem aos seus assentos e afivelem o cinto de segurança."
       },
       {
         "en": "Ladies and gentlemen, we've just received information about some light turbulence ahead. Please return to your seats and remain seated until the seatbelt sign is turned off.",
         "pl": "Szanowni państwo, właśnie otrzymaliśmy informację o lekkich turbulencjach przed nami. Prosimy o powrót na miejsca i pozostanie na nich do momentu wyłączenia sygnału zapięcia pasów.",
-        "de": "Sehr geehrte Damen und Herren, wir haben gerade Informationen über leichte Turbulenzen erhalten. Bitte kehren Sie zu Ihren Plätzen zurück und bleiben Sie sitzen, bis das Anschnallzeichen erlischt."
+        "de": "Sehr geehrte Damen und Herren, wir haben gerade Informationen über leichte Turbulenzen erhalten. Bitte kehren Sie zu Ihren Plätzen zurück und bleiben Sie sitzen, bis das Anschnallzeichen erlischt.",
+        "pt": "Senhoras e senhores, acabamos de receber informações sobre uma leve turbulência à frente. Por favor, retornem aos seus assentos e permaneçam sentados até que o aviso de atar os cintos seja desligado."
       },
       {
         "en": "Hi folks, this is your captain speaking. We had to turn on the seatbelt sign due to some light turbulence ahead. Please return to your seats and fasten your seat belts.",
         "pl": "Witajcie, tu kapitan. Musieliśmy włączyć sygnał zapięcia pasów z powodu lekkich turbulencji przed nami. Prosimy o powrót na miejsca i zapięcie pasów.",
-        "de": "Hallo Leute, hier spricht Ihr Kapitän. Aufgrund leichter Turbulenzen vor uns wurde das Anschnallzeichen aktiviert. Bitte kehren Sie zu Ihren Plätzen zurück und schnallen Sie sich an."
+        "de": "Hallo Leute, hier spricht Ihr Kapitän. Aufgrund leichter Turbulenzen vor uns wurde das Anschnallzeichen aktiviert. Bitte kehren Sie zu Ihren Plätzen zurück und schnallen Sie sich an.",
+        "pt": "Olá pessoal, aqui é o comandante da aeronave. Tivemos que ligar o aviso de atar os cintos devido a uma turbulância leve a frente, por favor, retornem aos seus assentos e afivelem os cintos de segurança."
       }
     ]
   },
@@ -81,17 +84,20 @@ const texts: Text[] = [
       {
         "en": "Ladies and gentlemen, our captain has just informed us that we are expecting some light turbulence ahead. Please return to your seats and remain seated until the seatbelt sign is turned off. Use of the lavatories is not allowed at this time.",
         "pl": "Szanowni państwo, nasz kapitan właśnie poinformował nas, że spodziewamy się lekkich turbulencji. Prosimy o powrót na miejsca i zapięcie pasów do momentu wyłączenia sygnału. Używanie toalet nie jest dozwolone w tym czasie.",
-        "de": "Meine Damen und Herren, unser Kapitän hat uns gerade mitgeteilt, dass wir mit leichten Turbulenzen rechnen. Bitte kehren Sie zu Ihren Plätzen zurück und bleiben Sie sitzen, bis das Anschnallzeichen erlischt. Die Nutzung der Toiletten ist derzeit nicht gestattet."
+        "de": "Meine Damen und Herren, unser Kapitän hat uns gerade mitgeteilt, dass wir mit leichten Turbulenzen rechnen. Bitte kehren Sie zu Ihren Plätzen zurück und bleiben Sie sitzen, bis das Anschnallzeichen erlischt. Die Nutzung der Toiletten ist derzeit nicht gestattet.",
+        "pt": "Senhoras e senhores, o comandante acaba de nos informar que passaremos por uma turbulência leve à frente. Permaneçam sentados até que o aviso de atar os cintos seja apagado. Neste momento não está permitido o uso dos lavatórios."
       },
       {
         "en": "Our captain has just informed us that we are expecting some light turbulence ahead. Please fasten your seatbelts.",
         "pl": "Nasz kapitan właśnie poinformował nas, że spodziewamy się lekkich turbulencji. Prosimy o zapięcie pasów.",
-        "de": "Unser Kapitän hat uns gerade mitgeteilt, dass wir mit leichten Turbulenzen rechnen. Bitte legen Sie den Gurt an."
+        "de": "Unser Kapitän hat uns gerade mitgeteilt, dass wir mit leichten Turbulenzen rechnen. Bitte legen Sie den Gurt an.",
+        "pt": "Senhoras e senhores, o comandante acaba de nos informar que passaremos por uma turbulência leve à frente. Por favor, afivelem seus cintos de segurança."
       },
       {
         "en": "As you heard from our captain, we are expecting some light turbulence ahead. Please return to your seats and fasten your seat belts. Use of the lavatories is not allowed at this time.",
         "pl": "Jak mogli państwo usłyszeć od naszego kapitana, spodziewamy się lekkich turbulencji. Prosimy o powrót na miejsca i zapięcie pasów. Używanie toalet nie jest dozwolone w tym czasie.",
-        "de": "Wie Sie von unserem Kapitän erfahren haben, rechnen wir mit leichten Turbulenzen. Bitte kehren Sie zu Ihren Plätzen zurück und schnallen Sie sich an. Die Nutzung der Toiletten ist derzeit nicht gestattet."
+        "de": "Wie Sie von unserem Kapitän erfahren haben, rechnen wir mit leichten Turbulenzen. Bitte kehren Sie zu Ihren Plätzen zurück und schnallen Sie sich an. Die Nutzung der Toiletten ist derzeit nicht gestattet.",
+        "pt": "Reforçamos que entraremos em uma área de turbulência à frente. Por favor, retornem aos seus assentos e afivelem os seus cintos. Neste momento não está permitido o uso dos lavatórios."
       }
     ]
   },
@@ -107,12 +113,14 @@ const texts: Text[] = [
       {
         "en": "Ladies and gentlemen, the captain has turned on the seatbelt sign. Please return to your seats and fasten your seat belts.",
         "pl": "Szanowni państwo, kapitan właśnie włączył sygnał zapięcia pasów. Prosimy o powrót na miejsca i zapięcie pasów bezpieczeństwa.",
-        "de": "Meine Damen und Herren, der Kapitän hat das Anschnallzeichen eingeschaltet. Bitte kehren Sie zu Ihren Plätzen zurück und schnallen Sie sich an."
+        "de": "Meine Damen und Herren, der Kapitän hat das Anschnallzeichen eingeschaltet. Bitte kehren Sie zu Ihren Plätzen zurück und schnallen Sie sich an.",
+        "pt": "Senhoras e senhores, o comandante ligou o aviso de atar os cintos. Por favor, retornem aos seus assentos e afivelem seus cintos de segurança."
       },
       {
         "en": "Ladies and gentlemen, the seatbelt sign has been turned on. Please return to your seats and fasten your seat belts. Use of the lavatories is not allowed at this time.",
         "pl": "Szanowni państwo, sygnał zapięcia pasów został właśnie włączony. Prosimy o powrót na miejsca i zapięcie pasów. Używanie toalet nie jest dozwolone w tym czasie.",
-        "de": "Meine Damen und Herren, das Anschnallzeichen ist eingeschaltet. Bitte kehren Sie zu Ihren Plätzen zurück und schnallen Sie sich an. Die Nutzung der Toiletten ist derzeit nicht gestattet."
+        "de": "Meine Damen und Herren, das Anschnallzeichen ist eingeschaltet. Bitte kehren Sie zu Ihren Plätzen zurück und schnallen Sie sich an. Die Nutzung der Toiletten ist derzeit nicht gestattet.",
+        "pt": "Senhoras e senhores, o aviso de atar os cintos foi aceso. Por favor, retornem aos seus assentos e afivelem os cintos de segurança. Neste momento não está permitido o uso dos lavatórios."
       }
     ]
   },
@@ -127,17 +135,20 @@ const texts: Text[] = [
       {
         "en": "Ladies and gentlemen, the captain has turned off the seatbelt sign. You may now move around the cabin, but we recommend that you keep your seatbelt fastened while seated in case of unexpected turbulence.",
         "pl": "Szanowni państwo, kapitan wyłączył sygnał zapięcia pasów. Możecie państwo teraz poruszać się po kabinie, ale zalecamy, aby pasy były zapięte podczas siedzenia na wypadek niespodziewanych turbulencji.",
-        "de": "Meine Damen und Herren, der Kapitän hat das Anschnallzeichen ausgeschaltet. Sie können sich jetzt in der Kabine bewegen, wir empfehlen Ihnen jedoch, im Sitzen den Sicherheitsgurt angelegt zu lassen, um unerwartete Turbulenzen zu vermeiden."
+        "de": "Meine Damen und Herren, der Kapitän hat das Anschnallzeichen ausgeschaltet. Sie können sich jetzt in der Kabine bewegen, wir empfehlen Ihnen jedoch, im Sitzen den Sicherheitsgurt angelegt zu lassen, um unerwartete Turbulenzen zu vermeiden.",
+        "pt": "Senhoras e senhores, o comandante desligou o aviso de atar os cintos. A partir de agora você pode se movimentar pela cabine, mas nós recomendamos o uso do cinto de segurança enquanto estiver sentado, em caso de turbulência inesperada."
       },
       {
         "en": "As you can see, the seatbelt sign has been turned off. You may now move around the cabin, but we recommend that you keep your seatbelt fastened while seated in case of unexpected turbulence.",
         "pl": "Jak mogli państwo zauważyć, sygnał zapięcia pasów został wyłączony. Możecie państwo teraz poruszać się po kabinie, ale zalecamy, aby pasy były zapięte podczas siedzenia na wypadek niespodziewanych turbulencji.",
-        "de": "Wie Sie sehen, wurden die Anschnallzeichen ausgeschaltet. Sie können sich jetzt in der Kabine bewegen, wir empfehlen Ihnen jedoch, im Sitzen den Sicherheitsgurt angelegt zu lassen, um unerwartete Turbulenzen zu vermeiden."
+        "de": "Wie Sie sehen, wurden die Anschnallzeichen ausgeschaltet. Sie können sich jetzt in der Kabine bewegen, wir empfehlen Ihnen jedoch, im Sitzen den Sicherheitsgurt angelegt zu lassen, um unerwartete Turbulenzen zu vermeiden.",
+        "pt": "Como você pode ver, o aviso de atar os cintos foi apagado. A partir de agora você pode se movimentar pela cabine, mas nós recomendamos o uso do cinto de segurança enquanto estiver sentado, em caso de turbulência inesperada."
       },
       {
         "en": "Seatbelt sign has just been turned off. You may now move around the cabin. We recommend that you keep your seatbelt fastened while seated in case of unexpected turbulence.",
         "pl": "Sygnał zapięcia pasów został właśnie wyłączony. Możecie państwo teraz poruszać się po kabinie. Zalecamy jednak, aby pasy były zapięte podczas siedzenia na wypadek niespodziewanych turbulencji.",
-        "de": "Die Anschnallzeichen wurden gerade ausgeschaltet. Sie können sich nun in der Kabine bewegen. Für den Fall unerwarteter Turbulenzen empfehlen wir Ihnen, im Sitzen den Sicherheitsgurt angelegt zu lassen."
+        "de": "Die Anschnallzeichen wurden gerade ausgeschaltet. Sie können sich nun in der Kabine bewegen. Für den Fall unerwarteter Turbulenzen empfehlen wir Ihnen, im Sitzen den Sicherheitsgurt angelegt zu lassen.",
+        "pt": "Senhoras e senhores, o comandante desligou o aviso de atar os cintos. A partir de agora você pode se movimentar pela cabine, mas nós recomendamos o uso do cinto de segurança enquanto estiver sentado, em caso de turbulência inesperada."
       }
     ]
   },
@@ -154,12 +165,14 @@ const texts: Text[] = [
       {
         "en": "Ladies and gentlemen, we are currently experiencing a delay. We apologize for the inconvenience and we will keep you updated on the progress. We are working hard to get you on your way as soon as possible. Thank you for your patience.",
         "pl": "Szanowni państwo, obecnie mamy drobne opóźnienie. Przepraszamy za niedogodności i będziemy informować państwa o postępach. Pracujemy nad tym, aby jak najszybciej ruszyć w drogę. Dziękujemy za cierpliwość.",
-        "de": "Sehr geehrte Damen und Herren, wir erleben derzeit eine Verzögerung. Wir entschuldigen uns für die Unannehmlichkeiten und werden Sie über den weiteren Verlauf auf dem Laufenden halten. Wir arbeiten hart daran, Sie so schnell wie möglich auf den Weg zu bringen. Vielen Dank für Ihre Geduld."
+        "de": "Sehr geehrte Damen und Herren, wir erleben derzeit eine Verzögerung. Wir entschuldigen uns für die Unannehmlichkeiten und werden Sie über den weiteren Verlauf auf dem Laufenden halten. Wir arbeiten hart daran, Sie so schnell wie möglich auf den Weg zu bringen. Vielen Dank für Ihre Geduld.",
+        "pt": "Senhoras e Senhores, infelizmente nós teremos um pequeno atraso em nossa partida. Pedimos desculpas pelo transtorno e manteremos vocês atualizados sobre o andamento. Estamos trabalhando para que você chegue ao seu destino o mais rápido possível. Obrigado pela paciência."
       },
       {
         "en": "Hi, this is your captain speaking. We are currently experiencing a delay. We apologize for the inconvenience and we will keep you updated on the progress. Thank you for your patience and understanding.",
         "pl": "Witajcie, tu kapitan. Obecnie mamy drobne opóźnienie. Przepraszamy za niedogodności i będziemy informować państwa o postępach. Dziękujemy za cierpliwość i zrozumienie.",
-        "de": "Hallo, hier spricht Ihr Kapitän. Leider kommt es derzeit zu einer Verzögerung. Wir entschuldigen uns für die Unannehmlichkeiten und werden Sie über den weiteren Verlauf auf dem Laufenden halten. Vielen Dank für Ihre Geduld und Ihr Verständnis."
+        "de": "Hallo, hier spricht Ihr Kapitän. Leider kommt es derzeit zu einer Verzögerung. Wir entschuldigen uns für die Unannehmlichkeiten und werden Sie über den weiteren Verlauf auf dem Laufenden halten. Vielen Dank für Ihre Geduld und Ihr Verständnis.",
+        "pt": "Olá, aqui é o comandante falando. No momento estamos enfrentando um atraso. Pedimos desculpas pelo transtorno e manteremos vocês atualizados sobre o andamento. Obrigado pela sua paciência e compreensão."
       }
     ]
   },
@@ -174,7 +187,8 @@ const texts: Text[] = [
       {
         "en": "We would like to apologize you again for the delay. We hope that you had a pleasant flight and we are looking forward to seeing you again soon.",
         "pl": "Chcielibyśmy jeszcze raz przeprosić za opóźnienie. Mamy nadzieję, że mieli państwo przyjemny lot i z niecierpliwością czekamy na ponowne spotkanie.",
-        "de": "Für die Verzögerung möchten wir uns noch einmal bei Ihnen entschuldigen. Wir hoffen, dass Sie einen angenehmen Flug hatten und freuen uns auf ein baldiges Wiedersehen."
+        "de": "Für die Verzögerung möchten wir uns noch einmal bei Ihnen entschuldigen. Wir hoffen, dass Sie einen angenehmen Flug hatten und freuen uns auf ein baldiges Wiedersehen.",
+        "pt": "Gostaríamos de pedir desculpas novamente pelo atraso. Esperamos que você tenha tido um voo agradável e esperamos vê-lo novamente em breve."
       }
     ]
   },
@@ -190,17 +204,20 @@ const texts: Text[] = [
       {
         "en": "Welcome aboard on this {airlineName} flight from {originCityName} to {destinationCityName}. My name is {captainName} and I am the captain of this flight. I would like to welcome you on board and thank you for choosing to fly with us today. We are currently preparing for departure and we will be taking off shortly. Our flight today will take approximately {flightTime}. If you have any questions or need assistance, please don't hesitate to ask one of our cabin crew members. Thank you for flying with {airlineName}.",
         "pl": "[Welcome aboard on this {airlineName} flight from {originCityName} to {destinationCityName}.] Nazywam się {captainName} i jestem kapitanem podczas tego lotu. Chciałbym państwa serdecznie powitać na pokładzie i podziękować za wybór naszego przewoźnika. Obecnie przygotowujemy się do startu i wkrótce rozpoczniemy kołowanie. [Our flight today will take approximately {flightTime}.] Jeśli mają państwo jakieś pytania, nie wahajcie się zwrócić do jednego z członków naszej załogi. [Thank you for flying with {airlineName}.]",
-        "de": "[Welcome aboard on this {airlineName} flight from {originCityName} to {destinationCityName}.] Mein Name ist {captainName} und ich bin der Kapitän dieses Fluges. Ich begrüße Sie an Bord und danke Ihnen, dass Sie sich entschieden haben, heute mit uns zu fliegen. Wir bereiten uns derzeit auf den Abflug vor und werden in Kürze abheben. [Our flight today will take approximately {flightTime}.] Wenn Sie Fragen haben oder Hilfe benötigen, wenden Sie sich bitte an einen unserer Flugbegleiter. [Thank you for flying with {airlineName}.]"
+        "de": "[Welcome aboard on this {airlineName} flight from {originCityName} to {destinationCityName}.] Mein Name ist {captainName} und ich bin der Kapitän dieses Fluges. Ich begrüße Sie an Bord und danke Ihnen, dass Sie sich entschieden haben, heute mit uns zu fliegen. Wir bereiten uns derzeit auf den Abflug vor und werden in Kürze abheben. [Our flight today will take approximately {flightTime}.] Wenn Sie Fragen haben oder Hilfe benötigen, wenden Sie sich bitte an einen unserer Flugbegleiter. [Thank you for flying with {airlineName}.]",
+        "pt": "[Bem-vindo a bordo deste voo da {airlineName} de {originCityName} para {destinationCityName}.] Eu me chamo {captainName} e sou o comandante deste voo. Gostaria de lhe dar as boas-vindas a bordo e agradecer pela preferência. No momento estamos nos preparando para a partida e decolaremos em breve. [Nosso tempo em rota hoje será de aproximadamente {flightTime}.] Se tiver alguma dúvida ou precisar de assistência, não hesite em perguntar a um dos nossos comissários. [Obrigado por voar com a {airlineName}.]"
       },
       {
         "en": "Ladies and gentlemen, welcome onboard {airlineName} flight from {originCityName} to {destinationCityName}. My name is {captainName} and I am the captain of this flight. We are currently preparing for departure and we will be taking off shortly. Thank you for choosing {airlineName}. Enjoy your flight.",
         "pl": "[Ladies and gentlemen, welcome onboard {airlineName} flight from {originCityName} to {destinationCityName}.] Nazywam się {captainName} i jestem kapitanem podczas tego lotu. Obecnie przygotowujemy się do startu i wkrótce rozpoczniemy kołowanie. [Thank you for choosing {airlineName}.] Życzymy miłego lotu.",
-        "de": "[Ladies and gentlemen, welcome onboard {airlineName} flight from {originCityName} to {destinationCityName}.] Mein Name ist {captainName} und ich bin der Kapitän dieses Fluges. Wir bereiten uns derzeit auf den Abflug vor und werden in Kürze abheben. [Thank you for choosing {airlineName}.] Guten Flug."
+        "de": "[Ladies and gentlemen, welcome onboard {airlineName} flight from {originCityName} to {destinationCityName}.] Mein Name ist {captainName} und ich bin der Kapitän dieses Fluges. Wir bereiten uns derzeit auf den Abflug vor und werden in Kürze abheben. [Thank you for choosing {airlineName}.] Guten Flug.",
+        "pt": "[Senhoras e senhores sejam bem-vindos a bordo do voo da {airlineName} de {originCityName} para {destinationCityName}.] Eu me chamo {captainName} e sou o comandante deste voo. No momento estamos nos preparando para a partida e decolaremos em breve. [Obrigado por escolher a {airlineName}.] Aproveite seu voo."
       },
       {
         "en": "Hi folks, this is your captain speaking. Welcome aboard on this {airlineName} flight from {originCityName} to {destinationCityName}. We are currently preparing for departure and we will be taking off shortly. Thank you for choosing to fly with us today.",
         "pl": "Z tej strony kapitan. [Welcome aboard on this {airlineName} flight from {originCityName} to {destinationCityName}.] Obecnie przygotowujemy się do startu i wkrótce rozpoczniemy kołowanie. Dziękujemy za wybór naszego przewoźnika.",
-        "de": "Hallo Leute, hier spricht Ihr Kapitän. [Welcome aboard on this {airlineName} flight from {originCityName} to {destinationCityName}.] Wir bereiten uns derzeit auf den Abflug vor und werden in Kürze abheben. Vielen Dank, dass Sie sich entschieden haben, heute mit uns zu fliegen."
+        "de": "Hallo Leute, hier spricht Ihr Kapitän. [Welcome aboard on this {airlineName} flight from {originCityName} to {destinationCityName}.] Wir bereiten uns derzeit auf den Abflug vor und werden in Kürze abheben. Vielen Dank, dass Sie sich entschieden haben, heute mit uns zu fliegen.",
+        "pt": "Olá pessoal aqui é o comandante falando. [Sejam bem-vindos a bordo do voo da {airlineName} de {originCityName} para {destinationCityName}.] No momento estamos nos preparando para a partida e decolaremos em breve. Obrigado por escolher voar conosco hoje."
       }
     ]
   },
@@ -215,12 +232,14 @@ const texts: Text[] = [
       {
         "en": "Hello and welcome aboard. My name is {crewName} and I am the cabin crew member on this flight. As you could hear from our captain - we are currently preparing for departure and we will be taking off shortly. Please make sure that your seatbelt is fastened and your seat back and tray table are in the upright position. Please turn off all personal electronic devices, including laptops and cell phones. Smoking is prohibited for the duration of the flight. If you have any questions or need assistance, please don't hesitate to ask me or one of my colleagues.",
         "pl": "Witamy na pokładzie. Nazywam się {crewName} i jestem członkiem załogi pokładowej podczas tego lotu. Jak mogli państwo usłyszeć od naszego kapitana - obecnie przygotowujemy się do startu i wkrótce rozpoczniemy kołowanie. Prosimy o zapięcie pasów bezpieczeństwa, ustawienie oparcia fotela i stolika w pozycji pionowej. Prosimy o wyłączenie wszystkich urządzeń elektronicznych, w tym laptopów i telefonów komórkowych. Palenie jest zabronione podczas trwania lotu. Jeśli mają państwo jakieś pytania lub potrzebują pomocy, proszę zwrocić się do mnie lub jednego z moich kolegów.",
-        "de": "Hallo und willkommen an Bord. Mein Name ist {crewName} und bin ihr Flugbegleiter auf diesem Flug. Wie Sie von unserem Kapitän hören konnten, bereiten wir uns derzeit auf die Abreise vor und werden in Kürze abheben. Bitte stellen Sie sicher, dass Ihr Sicherheitsgurt angelegt ist und sich Ihre Rückenlehne und Ihr Tabletttisch in einer aufrechten Position befinden. Bitte schalten Sie alle persönlichen elektronischen Geräte, einschließlich Laptops und Mobiltelefone, aus. Für die Dauer des Fluges ist das Rauchen verboten. Wenn Sie Fragen haben oder Hilfe benötigen, zögern Sie bitte nicht, mich oder einen meiner Kollegen zu fragen."
+        "de": "Hallo und willkommen an Bord. Mein Name ist {crewName} und bin ihr Flugbegleiter auf diesem Flug. Wie Sie von unserem Kapitän hören konnten, bereiten wir uns derzeit auf die Abreise vor und werden in Kürze abheben. Bitte stellen Sie sicher, dass Ihr Sicherheitsgurt angelegt ist und sich Ihre Rückenlehne und Ihr Tabletttisch in einer aufrechten Position befinden. Bitte schalten Sie alle persönlichen elektronischen Geräte, einschließlich Laptops und Mobiltelefone, aus. Für die Dauer des Fluges ist das Rauchen verboten. Wenn Sie Fragen haben oder Hilfe benötigen, zögern Sie bitte nicht, mich oder einen meiner Kollegen zu fragen.",
+        "pt": "Olá bem-vindos a bordo. Meu nome é {crewName} e sou o membro do time de comissários deste voo. Como vocês puderam ouvir do nosso comandante, estamos nos preparando para a partida e decolaremos em breve. Pedimos que afivelem os cintos de segurança neste momento e guardem toda a bagagem embaixo do assento ou nos compartimentos superiores. Pedimos também que retornem seus assentos para a posição vertical, feche e trave a mesinha a sua frente. Desligue todos os dispositivos eletrônicos pessoais, incluindo laptops e telefones celulares. É proibido fumar durante o voo. Caso tenha alguma dúvida ou se precisar de ajuda, não hesite em perguntar a um dos comissários."
       },
       {
         "en": "Ladies and gentlemen, welcome onboard. My name is {crewName} and I am the cabin crew member on this flight. We ask that you please fasten your seatbelts at this time and secure all baggage underneath your seat or in the overhead compartments. We also ask that your seats and table trays are in the upright position for take-off. Please turn off all personal electronic devices, including laptops and cell phones. Smoking is prohibited for the duration of the flight. Thank you for choosing {airlineName}. Enjoy your flight.",
         "pl": "Panie i panowie, witamy na pokładzie. Nazywam się {crewName} i jestem członkiem załogi pokładowej podczas tego lotu. Prosimy o zapięcie pasów bezpieczeństwa i umieszczenie bagażu pod siedzeniem lub w schowkach bagażowych. Prosimy również o ustawienie oparcia fotela i stolika w pozycji pionowej przed startem. Prosimy o wyłączenie wszystkich urządzeń elektronicznych, w tym laptopów i telefonów komórkowych. Palenie jest zabronione podczas trwania lotu. [Thank you for choosing {airlineName}.] Życzymy miłego lotu.",
-        "de": "Sehr geehrte Damen und Herren, willkommen an Bord. Mein Name ist {crewName} und ich bin ihr Flugbegleiter auf diesem Flug. Wir bitten Sie, zu diesem Zeitpunkt Ihre Sicherheitsgurte anzulegen und das gesamte Gepäck unter Ihrem Sitz oder in den Gepäckfächern zu verstauen. Wir bitten Sie außerdem, dass sich Ihre Sitze und Tischablagen zum Abflug in aufrechter Position befinden. Bitte schalten Sie alle persönlichen elektronischen Geräte, einschließlich Laptops und Mobiltelefone, aus. Für die Dauer des Fluges ist das Rauchen verboten. [Thank you for choosing {airlineName}.] Guten Flug."
+        "de": "Sehr geehrte Damen und Herren, willkommen an Bord. Mein Name ist {crewName} und ich bin ihr Flugbegleiter auf diesem Flug. Wir bitten Sie, zu diesem Zeitpunkt Ihre Sicherheitsgurte anzulegen und das gesamte Gepäck unter Ihrem Sitz oder in den Gepäckfächern zu verstauen. Wir bitten Sie außerdem, dass sich Ihre Sitze und Tischablagen zum Abflug in aufrechter Position befinden. Bitte schalten Sie alle persönlichen elektronischen Geräte, einschließlich Laptops und Mobiltelefone, aus. Für die Dauer des Fluges ist das Rauchen verboten. [Thank you for choosing {airlineName}.] Guten Flug.",
+        "pt": "Senhoras e senhores, sejam bem-vindos a bordo. Meu nome é {crewName} e sou o membro do time de comissários deste voo. Pedimos que afivelem os cintos de segurança neste momento e guarde toda a bagagem embaixo do assento ou nos compartimentos superiores. Pedimos também que retornem seus assentos para a posição vertical, feche e trave a mesinha a sua frente. Desligue todos os dispositivos eletrônicos pessoais, incluindo laptops e telefones celulares. É proibido fumar durante o voo. [Obrigado por escolher a {airlineName}.] Aproveite seu voo."
       }
     ]
   },
@@ -235,12 +254,14 @@ const texts: Text[] = [
       {
         "en": "Welcome aboard on this {airlineName} flight. Today we are flying from {originCityName} to {destinationCityName}. My name is {crewName} and I am the cabin crew member on this flight. We are currently preparing for departure and we will be taking off shortly. Please make sure that your seatbelt is fastened and your seat back and tray table are in the upright position. If you have any questions or need assistance, please don't hesitate to ask me or one of my colleagues. Thank you for flying with {airlineName}.",
         "pl": "[Welcome aboard on this {airlineName} flight from {originCityName} to {destinationCityName}.] Nazywam się {crewName} i jestem członkiem załogi podczas tego lotu. Obecnie przygotowujemy się do startu i wkrótce rozpoczniemy kołowanie. Prosimy o zapięcie pasów bezpieczeństwa, ustawienie oparcia fotela i stolika w pozycji pionowej. Jeśli mają państwo jakieś pytania lub potrzebują pomocy, proszę nie wahajcie się zwrócić do mnie lub jednego z moich kolegów. [Thank you for flying with {airlineName}.]",
-        "de": "[Welcome aboard on this {airlineName} flight.] [Today we are flying from {originCityName} to {destinationCityName}.] Mein Name ist {crewName} und ich bin ihr Flugbegleiter auf diesem Flug. Wir bereiten uns derzeit auf den Abflug vor und werden in Kürze abheben. Bitte stellen Sie sicher, dass Ihr Sicherheitsgurt angelegt ist und sich Ihre Rückenlehne und Ihr Tabletttisch in einer aufrechten Position befinden. Wenn Sie Fragen haben oder Hilfe benötigen, zögern Sie bitte nicht, mich oder einen meiner Kollegen zu fragen. [Thank you for flying with {airlineName}.]"
+        "de": "[Welcome aboard on this {airlineName} flight.] [Today we are flying from {originCityName} to {destinationCityName}.] Mein Name ist {crewName} und ich bin ihr Flugbegleiter auf diesem Flug. Wir bereiten uns derzeit auf den Abflug vor und werden in Kürze abheben. Bitte stellen Sie sicher, dass Ihr Sicherheitsgurt angelegt ist und sich Ihre Rückenlehne und Ihr Tabletttisch in einer aufrechten Position befinden. Wenn Sie Fragen haben oder Hilfe benötigen, zögern Sie bitte nicht, mich oder einen meiner Kollegen zu fragen. [Thank you for flying with {airlineName}.]",
+        "pt": "[Sejam bem-vindos a bordo do voo da {airlineName} de {originCityName} para {destinationCityName}.] Meu nome é {crewName} e sou o membro do time de comissários deste voo. No momento estamos nos preparando para a partida e decolaremos em breve. Pedimos que afivelem o seu cinto de segurança e retornem seus assentos para a posição vertical. feche e trave a mesinha a sua frente. Caso tenha alguma dúvida ou se precisar de ajuda, não hesite em perguntar a um dos comissários. [Obrigado por voar com a {airlineName}.]"
       },
       {
         "en": "Ladies and gentlemen, welcome onboard {airlineName} flight from {originCityName} to {destinationCityName}. My name is {crewName} and I am the cabin crew member on this flight. We ask that you please fasten your seatbelts at this time and secure all baggage underneath your seat or in the overhead compartments. We also ask that your seats and table trays are in the upright position for take-off. Please turn off all personal electronic devices, including laptops and cell phones. Smoking is prohibited for the duration of the flight. Thank you for choosing {airlineName}. Enjoy your flight.",
         "pl": "[Ladies and gentlemen, welcome onboard {airlineName} flight from {originCityName} to {destinationCityName}.] Nazywam się {crewName} i jestem członkiem załogi podczas tego lotu. Prosimy o zapięcie pasów bezpieczeństwa i umieszczenie bagażu pod siedzeniem lub w schowkach bagażowych. Prosimy również o ustawienie oparcia fotela i stolika w pozycji pionowej przed startem. Prosimy o wyłączenie wszystkich urządzeń elektronicznych, w tym laptopów i telefonów komórkowych. Palenie jest zabronione podczas trwania lotu. [Thank you for choosing {airlineName}.] Życzymy miłego lotu.",
-        "de": "[Ladies and gentlemen, welcome onboard {airlineName} flight from {originCityName} to {destinationCityName}.] Mein Name ist {crewName} und ich bin ihr Flugbegleiter auf diesem Flug. Wir bitten Sie, zu diesem Zeitpunkt Ihre Sicherheitsgurte anzulegen und das gesamte Gepäck unter Ihrem Sitz oder in den Gepäckfächern zu verstauen. Wir bitten Sie außerdem, Ihre Sitze und Tischablagen zum Abflug in eine aufrechte Position zu bringen. Bitte schalten Sie alle persönlichen elektronischen Geräte, einschließlich Laptops und Mobiltelefone, aus. Für die Dauer des Fluges ist das Rauchen verboten. [Thank you for choosing {airlineName}.] Guten Flug."
+        "de": "[Ladies and gentlemen, welcome onboard {airlineName} flight from {originCityName} to {destinationCityName}.] Mein Name ist {crewName} und ich bin ihr Flugbegleiter auf diesem Flug. Wir bitten Sie, zu diesem Zeitpunkt Ihre Sicherheitsgurte anzulegen und das gesamte Gepäck unter Ihrem Sitz oder in den Gepäckfächern zu verstauen. Wir bitten Sie außerdem, Ihre Sitze und Tischablagen zum Abflug in eine aufrechte Position zu bringen. Bitte schalten Sie alle persönlichen elektronischen Geräte, einschließlich Laptops und Mobiltelefone, aus. Für die Dauer des Fluges ist das Rauchen verboten. [Thank you for choosing {airlineName}.] Guten Flug.",
+        "pt": "[Senhoras e senhores, sejam bem-vindos a bordo do voo da {airlineName} de {originCityName} para {destinationCityName}.] Meu nome é {crewName} e sou o membro do time de comissários deste voo. Pedimos que afivelem os cintos de segurança neste momento e guarde toda a bagagem embaixo do assento ou nos compartimentos superiores. Pedimos também que retornem seus assentos para a posição vertical, feche e trave a mesinha a sua frente. Desligue todos os dispositivos eletrônicos pessoais, incluindo laptops e telefones celulares. É proibido fumar durante o voo. [Obrigado por escolher a {airlineName}.] Aproveite seu voo."
       }
     ]
   },
@@ -254,12 +275,14 @@ const texts: Text[] = [
       {
         "en": "Our flight today will take approximately {flightTime}. The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}. Please remember to keep your seatbelt fastened while seated and whenever the seatbelt sign is illuminated.",
         "pl": "[Our flight today will take approximately {flightTime}.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}.] Prosimy pamiętać o tym, aby mieć zapięte pasy zawszy gdy Państwo siedzą i zawsze, gdy sygnał zapięcia pasów jest włączony.",
-        "de": "[Our flight today will take approximately {flightTime}.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}.] Bitte denken Sie daran, Ihren Sicherheitsgurt immer anzulegen, wenn Sie sitzen und die Sicherheitsgurtwarnung aktiviert ist."
+        "de": "[Our flight today will take approximately {flightTime}.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}.] Bitte denken Sie daran, Ihren Sicherheitsgurt immer anzulegen, wenn Sie sitzen und die Sicherheitsgurtwarnung aktiviert ist.",
+        "pt": "[Nosso tempo em rota hoje será de aproximadamente {flightTime}.] [O clima em {destinationCityName} é {destinationCityWeatherHumanDescription}.] Lembre-se de manter o cinto de segurança afivelado enquanto estiver sentado e sempre que o aviso de atar os cintos estiver aceso."
       },
       {
         "en": "Hi, it's me again. I just thought I'll share some information with you. Our flight today will take approximately {flightTime}. The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}. We expect a smooth flight with a small chance of light turbulences. Please relax and enjoy the flight.",
         "pl": "Witajcie, to znowu ja. Chciałem podzielić się z wami kilkoma informacjami. [Our flight today will take approximately {flightTime}.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}.] Spodziwamy się spokojnego lotu z małymi szansami na lekkie turbulencje. Życzę miłego lotu.",
-        "de": "Hallo, ich bin es wieder. Ich dachte, ich teile einige Informationen mit Ihnen. [Our flight today will take approximately {flightTime}.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}.] Wir erwarten einen ruhigen Flug mit einer geringen Wahrscheinlichkeit leichter Turbulenzen. Bitte entspannen Sie sich und genießen Sie den Flug."
+        "de": "Hallo, ich bin es wieder. Ich dachte, ich teile einige Informationen mit Ihnen. [Our flight today will take approximately {flightTime}.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}.] Wir erwarten einen ruhigen Flug mit einer geringen Wahrscheinlichkeit leichter Turbulenzen. Bitte entspannen Sie sich und genießen Sie den Flug.",
+        "pt": "Olá, sou eu de novo. Gostaria de compartilhar algumas informações com vocês. [Nosso tempo em rota hoje será de aproximadamente {flightTime}.] [O clima em {destinationCityName} é {destinationCityWeatherHumanDescription}]. Esperamos um vôo tranquilo com pequenas chances de turbulências leve. Por favor, relaxe e aproveite o vôo."
       }
     ]
   },
@@ -274,12 +297,14 @@ const texts: Text[] = [
       {
         "en": "Ladies and gentlemen, shortly after takeoff we'll start serving snacks and drinks. You can find our sky menu in the seat pocket in front of you.",
         "pl": "Szanowni państwo, krótko po starcie rozpoczniemy serwowanie przekąsek i napojów. Nasze menu znajdą państwo w kieszeni siedzenia przed państwem.",
-        "de": "Sehr geehrte Damen und Herren, kurz nach dem Start servieren wir Ihnen Snacks und Getränke. Unser Sky-Menü finden Sie in der Sitztasche vor Ihnen."
+        "de": "Sehr geehrte Damen und Herren, kurz nach dem Start servieren wir Ihnen Snacks und Getränke. Unser Sky-Menü finden Sie in der Sitztasche vor Ihnen.",
+        "pt": "Senhoras e senhores, logo após a decolagem começaremos a servir lanches e bebidas. Você pode encontrar nosso menu Sky no bolso do assento à sua frente."
       },
       {
         "en": "Shortly after takeoff we'll start serving snacks and drinks. You can find our sky menu in the seat pocket in front of you.",
         "pl": "Krótko po starcie rozpoczniemy serwowanie przekąsek i napojów. Nasze menu znajdą państwo w kieszeni siedzenia przed państwem.",
-        "de": "Kurz nach dem Start beginnen wir mit dem Servieren von Snacks und Getränken. Unser Sky-Menü finden Sie in der Sitztasche vor Ihnen."
+        "de": "Kurz nach dem Start beginnen wir mit dem Servieren von Snacks und Getränken. Unser Sky-Menü finden Sie in der Sitztasche vor Ihnen.",
+        "pt": "Logo após a decolagem começaremos a servir lanches e bebidas. Você pode encontrar nosso menu Sky no bolso do assento à sua frente."
       }
     ]
   },
@@ -294,7 +319,8 @@ const texts: Text[] = [
       {
         "en": "Our flight today will take approximately {flightTime}. Captain just let me know that flight should be smooth. Shortly after takeoff we'll start serving snacks and drinks. You can find our sky menu in the seat pocket in front of you.",
         "pl": "[Our flight today will take approximately {flightTime}.] Kapitan właśnie poinformował mnie, że lot powinien być spokojny. Krótko po starcie rozpoczniemy serwowanie przekąsek i napojów. Nasze menu znajdą państwo w kieszeni siedzenia przed państwem.",
-        "de": "[Our flight today will take approximately {flightTime}.] Der Kapitän hat mir mitgeteilt, dass der Flug reibungslos verlaufen sollte. Kurz nach dem Start beginnen wir mit dem Servieren von Snacks und Getränken. Unser Sky-Menü finden Sie in der Sitztasche vor Ihnen."
+        "de": "[Our flight today will take approximately {flightTime}.] Der Kapitän hat mir mitgeteilt, dass der Flug reibungslos verlaufen sollte. Kurz nach dem Start beginnen wir mit dem Servieren von Snacks und Getränken. Unser Sky-Menü finden Sie in der Sitztasche vor Ihnen.",
+        "pt": "[Nosso tempo em rota hoje será de aproximadamente {flightTime}.] Capitão, me avise sobre as condições do voo para hoje. Logo após a decolagem começaremos a servir lanches e bebidas. Você pode encontrar nosso menu Sky no bolso do assento à sua frente."
       }
     ]
   },
@@ -308,7 +334,8 @@ const texts: Text[] = [
       {
         "en": "Ladies and gentlemen, on behalf of the crew I ask that you please direct your attention to the crew members as we review the emergency procedures. There are {aircraftEmergencyExistsCount} emergency exits on this aircraft. Take a minute to locate the exit closest to you. Note that the nearest exit may be behind you. Should the cabin experience sudden pressure loss, stay calm and listen for instructions from the cabin crew. Oxygen masks will drop down from above your seat. Place the mask over your mouth and nose, like this. Pull the strap to tighten it. If you are traveling with children, make sure that your own mask is on first before helping your children. In the unlikely event of an emergency landing and evacuation, leave your carry-on items behind. Life rafts are located below your seats and emergency lighting will lead you to your closest exit. We ask that you make sure that all carry-on luggage is stowed away safely during the flight. While we wait for take off, please take a moment to review the safety data card in the seat pocket in front of you. Thank you for your attention.",
         "pl": "Szanowni państwo, w imieniu załogi proszę o uwagę. Na pokładzie samolotu znajduje się {aircraftEmergencyExistsCount} wyjść awaryjnych. Proszę poświęcić chwilę, aby zlokalizować wyjście najbliższe Państwu. Zwróć szczególną uwagę, ponieważ najbliższe wyjście może znajdować się za Państwem. W przypadku nagłej utraty ciśnienia w kabinie, zachowaj spokój i słuchaj instrukcji członków załogi. Maseczki tlenowe spadną z góry nad Państwa miejscem. Umieść maseczkę na ustach i nosie. Pociągnij za pasek, aby ją naciągnąć. Jeśli podróżujesz z dziećmi, upewnij się, że najpierw założysz swoją maseczkę, zanim pomożesz swoim dzieciom. W przypadku awaryjnego lądowania i ewakuacji, pozostaw swoje bagaże podręczne. Kamizelki ratunkowe znajdują się pod Państwa siedzeniami, a oświetlenie awaryjne poprowadzi Państwa do najbliższego wyjścia. Prosimy upewnić się, że wszystkie bagaże podręczne są bezpiecznie schowane podczas lotu. Podczas oczekiwania na start, proszę poświęcić chwilę na zapoznanie się z kartą bezpieczeństwa znajdującą się w kieszeni siedzenia przed Państwem. Dziękujemy za uwagę.",
-        "de": "Sehr geehrte Damen und Herren, im Namen der Besatzung bitte ich Sie, Ihre Aufmerksamkeit auf die Besatzungsmitglieder zu richten, während wir die Notfallmaßnahmen überprüfen. Es gibt {aircraftEmergencyExistsCount} Notausgänge in diesem Flugzeug. Nehmen Sie sich einen Moment Zeit, um den nächstgelegenen Ausgang zu finden. Beachten Sie, dass sich der nächste Ausgang möglicherweise hinter Ihnen befindet. Sollte es in der Kabine zu einem plötzlichen Druckverlust kommen, bleiben Sie ruhig und achten Sie auf die Anweisungen des Kabinenpersonals. Sauerstoffmasken fallen von über Ihrem Sitz herunter. Legen Sie die Maske wie folgt über Mund und Nase. Ziehen Sie am Riemen, um ihn festzuziehen. Wenn Sie mit Kindern reisen, stellen Sie sicher, dass Sie zuerst Ihre eigene Maske tragen, bevor Sie Ihren Kindern helfen. Lassen Sie im unwahrscheinlichen Fall einer Notlandung und Evakuierung Ihr Handgepäck zurück. Unter Ihren Sitzen befinden sich Rettungsinseln und eine Notbeleuchtung führt Sie zum nächstgelegenen Ausgang. Wir bitten Sie, während des Fluges darauf zu achten, dass das gesamte Handgepäck sicher verstaut ist. Während wir auf den Abflug warten, nehmen Sie sich bitte einen Moment Zeit und überprüfen Sie die Sicherheitsdatenkarte in der Sitztasche vor Ihnen. Vielen Dank für Ihre Aufmerksamkeit."
+        "de": "Sehr geehrte Damen und Herren, im Namen der Besatzung bitte ich Sie, Ihre Aufmerksamkeit auf die Besatzungsmitglieder zu richten, während wir die Notfallmaßnahmen überprüfen. Es gibt {aircraftEmergencyExistsCount} Notausgänge in diesem Flugzeug. Nehmen Sie sich einen Moment Zeit, um den nächstgelegenen Ausgang zu finden. Beachten Sie, dass sich der nächste Ausgang möglicherweise hinter Ihnen befindet. Sollte es in der Kabine zu einem plötzlichen Druckverlust kommen, bleiben Sie ruhig und achten Sie auf die Anweisungen des Kabinenpersonals. Sauerstoffmasken fallen von über Ihrem Sitz herunter. Legen Sie die Maske wie folgt über Mund und Nase. Ziehen Sie am Riemen, um ihn festzuziehen. Wenn Sie mit Kindern reisen, stellen Sie sicher, dass Sie zuerst Ihre eigene Maske tragen, bevor Sie Ihren Kindern helfen. Lassen Sie im unwahrscheinlichen Fall einer Notlandung und Evakuierung Ihr Handgepäck zurück. Unter Ihren Sitzen befinden sich Rettungsinseln und eine Notbeleuchtung führt Sie zum nächstgelegenen Ausgang. Wir bitten Sie, während des Fluges darauf zu achten, dass das gesamte Handgepäck sicher verstaut ist. Während wir auf den Abflug warten, nehmen Sie sich bitte einen Moment Zeit und überprüfen Sie die Sicherheitsdatenkarte in der Sitztasche vor Ihnen. Vielen Dank für Ihre Aufmerksamkeit.",
+        "pt": "Senhores passageiros sua atenção por favor, apresentaremos agora as informações de segurança deste avião. Para afivelar seu cinto de segurança encaixe as extremidades e ajuste-o puxando a tira, para soltá-lo levante a parte externa da fivela. Por lei é proibido fumar a bordo inclusive cigarros eletrônicos. Também é proibido manipular os detectores de fumaça dos lavatórios. Luzes de emergência no piso e no teto indicarão o caminho para as saídas da aeronave, localize a saída mais próxima lembrando que ela poderá estar atrás de você. Se a cabine perder pressão, máscaras de oxigênio cairão automaticamente dos compartimentos acima dos seus assentos. Puxe uma delas coloque sobre o nariz e a boca e respire normalmente. Somente ajude outras pessoas após ter colocado a sua máscara. O equipamento para auxílio à flutuação está indicado a sua frente, verifique o cartão com as informações de segurança localizado no bolsão da poltrona. Agradecemos a atenção e desejamos a todos uma ótima viagem."
       }
     ]
   },
@@ -334,12 +361,14 @@ const texts: Text[] = [
       {
         "en": "Ladies and gentlemen, please remain seated while we climb to our cruising altitude. We will be starting our in-flight service shortly. You can find our sky menu in the seat pocket in front of you.",
         "pl": "Szanowni państwo, prosimy o pozostanie na miejscach podczas wznoszenia do naszej wysokości przelotowej. Wkrótce rozpoczniemy serwis pokładowy. Menu znajdą państwo w kieszeni siedzenia przed sobą.",
-        "de": "Sehr geehrte Damen und Herren, bitte bleiben Sie sitzen, während wir auf unsere Reiseflughöhe steigen. Wir werden in Kürze mit unserem Bordservice beginnen. Unser Sky-Menü finden Sie in der Sitztasche vor Ihnen."
+        "de": "Sehr geehrte Damen und Herren, bitte bleiben Sie sitzen, während wir auf unsere Reiseflughöhe steigen. Wir werden in Kürze mit unserem Bordservice beginnen. Unser Sky-Menü finden Sie in der Sitztasche vor Ihnen.",
+        "pt": "Senhoras e senhores, por favor permaneçam sentados enquanto subimos para nossa altitude de cruzeiro. Em breve iniciaremos nosso serviço de bordo. Você pode encontrar nosso menu Sky no bolsão do assento à sua frente."
       },
       {
         "en": "We are now climbing to our cruising altitude. We will be starting our in-flight service shortly. You can find our sky menu in the seat pocket in front of you.",
         "pl": "Obecnie wznosimy się do naszej wysokości przelotowej. Wkrótce rozpoczniemy serwis pokładowy. Menu znajdą państwo w kieszeni siedzenia przed sobą.",
-        "de": "Wir steigen jetzt auf unsere Reiseflughöhe. Wir werden in Kürze mit unserem Bordservice beginnen. Unser Sky-Menü finden Sie in der Sitztasche vor Ihnen."
+        "de": "Wir steigen jetzt auf unsere Reiseflughöhe. Wir werden in Kürze mit unserem Bordservice beginnen. Unser Sky-Menü finden Sie in der Sitztasche vor Ihnen.",
+        "pt": "Agora estamos subindo para a nossa altitude de cruzeiro. Em breve iniciaremos nosso serviço de bordo. Você pode encontrar nosso menu Sky no bolsão do assento à sua frente."
       }
     ]
   },
@@ -353,12 +382,14 @@ const texts: Text[] = [
       {
         "en": "Ladies and gentlemen, we are now starting our in-flight service. We'd like to remind you that we accept card payments as well as cash. You can find our sky menu in the seat pocket in front of you. Please remain seated while we serve you. If you need anything, please don't hesitate to ask one of our cabin crew members. Thank you.",
         "pl": "Szanowni państwo, rozpoczynamy serwis pokładowy. Przypominamy, że akceptujemy płatności kartą oraz gotówką. Menu znajdą państwo w kieszeni siedzenia przed sobą. Prosimy o pozostanie na miejscach podczas naszej obsługi. Jeśli mają Państwo specjalne potrzeby, prosimy zwrócić się do jednego z członków naszej załogi. Dziękujemy.",
-        "de": "Meine Damen und Herren, wir starten jetzt unseren Bordservice. Wir möchten Sie daran erinnern, dass wir sowohl Kartenzahlungen als auch Bargeld akzeptieren. Unser Sky-Menü finden Sie in der Sitztasche vor Ihnen. Bitte bleiben Sie sitzen, während wir Sie bedienen. Wenn Sie etwas benötigen, zögern Sie bitte nicht, eines unserer Kabinenpersonalmitglieder zu fragen. Vielen Dank."
+        "de": "Meine Damen und Herren, wir starten jetzt unseren Bordservice. Wir möchten Sie daran erinnern, dass wir sowohl Kartenzahlungen als auch Bargeld akzeptieren. Unser Sky-Menü finden Sie in der Sitztasche vor Ihnen. Bitte bleiben Sie sitzen, während wir Sie bedienen. Wenn Sie etwas benötigen, zögern Sie bitte nicht, eines unserer Kabinenpersonalmitglieder zu fragen. Vielen Dank.",
+        "pt": "Senhoras e senhores, agora vamos iniciar o nosso serviço de bordo. Gostaríamos de lembrar que aceitamos pagamentos com cartão e dinheiro. Você pode encontrar nosso menu Sky no bolsão do assento à sua frente. Por favor, permaneça sentado enquanto o atendemos. Se precisar de alguma coisa, não hesite em perguntar a um dos nossos comissários. Obrigado."
       },
       {
         "en": "We are now starting our in-flight service. We'd like to remind you that we accept card payments as well as cash. You can find our sky menu in the seat pocket in front of you. Please remain seated while we serve you. If you need anything, please don't hesitate to ask one of our cabin crew members. Thank you.",
         "pl": "Rozpoczynamy serwis pokładowy. Przypominamy, że akceptujemy płatności kartą oraz gotówką. Menu znajdą państwo w kieszeni siedzenia przed sobą. Prosimy o pozostanie na miejscach podczas naszej obsługi. Jeśli mają Państwo specjalne potrzeby, prosimy zwrócić się do jednego z członków naszej załogi. Dziękujemy.",
-        "de": "Wir starten jetzt unseren Bordservice. Wir möchten Sie daran erinnern, dass wir sowohl Kartenzahlungen als auch Bargeld akzeptieren. Unser Sky-Menü finden Sie in der Sitztasche vor Ihnen. Bitte bleiben Sie sitzen, während wir Sie bedienen. Wenn Sie etwas benötigen, zögern Sie bitte nicht, eines unserer Kabinenpersonalmitglieder zu fragen. Danke schön."
+        "de": "Wir starten jetzt unseren Bordservice. Wir möchten Sie daran erinnern, dass wir sowohl Kartenzahlungen als auch Bargeld akzeptieren. Unser Sky-Menü finden Sie in der Sitztasche vor Ihnen. Bitte bleiben Sie sitzen, während wir Sie bedienen. Wenn Sie etwas benötigen, zögern Sie bitte nicht, eines unserer Kabinenpersonalmitglieder zu fragen. Danke schön.",
+        "pt": "Agora vamos iniciar o nosso serviço de bordo. Gostaríamos de lembrar que aceitamos pagamentos com cartão e dinheiro. Você pode encontrar nosso menu Sky no bolsão do assento à sua frente. Por favor, permaneça sentado enquanto o atendemos. Se precisar de alguma coisa, não hesite em perguntar a um dos nossos comissários. Obrigado."
       }
     ]
   },
@@ -376,7 +407,8 @@ const texts: Text[] = [
       {
         "en": "Ladies and gentlemen, we are now starting our in-flight shopping service. Today we have a special offer for you. Our scratch cards are now available for purchase. You can win a free flight or other great prizes. Good luck!",
         "pl": "Szanowni państwo, rozpoczynamy sprzedaż naszych produktów premium. Dziś mamy dla państwa specjalną ofertę. Kupując zdrapkę, możecie państwo wygrać darmowy lot lub inne fantastyczne nagrody. Powodzenia!",
-        "de": "Sehr Damen und Herren, wir starten jetzt unseren Bordeinkaufsservice. Heute haben wir ein besonderes Angebot für Sie. Unsere Rubbellose sind jetzt zum Kauf verfügbar. Zu gewinnen gibt es einen Freiflug oder andere tolle Preise. Viel Glück!"
+        "de": "Sehr Damen und Herren, wir starten jetzt unseren Bordeinkaufsservice. Heute haben wir ein besonderes Angebot für Sie. Unsere Rubbellose sind jetzt zum Kauf verfügbar. Zu gewinnen gibt es einen Freiflug oder andere tolle Preise. Viel Glück!",
+        "pt": "Senhoras e senhores, iniciamos agora o nosso serviço de compras a bordo. Hoje temos uma oferta especial para você. Nossas raspadinhas já estão disponíveis para compra. Você pode ganhar um voo grátis ou outros prêmios incríveis. Boa sorte!"
       }
     ]
   },
@@ -388,12 +420,14 @@ const texts: Text[] = [
       {
         "en": "Ladies and gentlemen, we are now starting our in-flight shopping service. Today we have a special offer for you. If you buy two perfumes, you will get a 10% discount on the third one.",
         "pl": "Szanowni państwo, rozpoczynamy serwis pokładowy. Dziś mamy dla państwa specjalną ofertę. Jeśli kupią państwo dwa zapachy, trzeci będzie tańszy o 10%.",
-        "de": "MSehr geehrte Damen und Herren, wir starten jetzt unseren Bordeinkaufsservice. Heute haben wir ein besonderes Angebot für Sie. Wenn Sie zwei Parfums kaufen, erhalten Sie 10 % Rabatt auf das dritte."
+        "de": "MSehr geehrte Damen und Herren, wir starten jetzt unseren Bordeinkaufsservice. Heute haben wir ein besonderes Angebot für Sie. Wenn Sie zwei Parfums kaufen, erhalten Sie 10 % Rabatt auf das dritte.",
+        "pt": "Senhoras e senhores, iniciamos agora o nosso serviço de compras a bordo. Hoje temos uma oferta especial para você. Na compra de dois perfumes, você ganha 10% de desconto no terceiro."
       },
       {
         "en": "We are now starting our in-flight shopping service. Today we highly recommend our special offer - a set of three perfumes for the price of two. You can find our shopping catalog in the seat pocket in front of you.",
         "pl": "Rozpoczynamy serwis pokładowy. Dziś polecamy naszą specjalną ofertę - zestaw trzech zapachów w cenie dwóch. Katalog produktów znajdą państwo w kieszeni siedzenia przed sobą.",
-        "de": "Wir starten jetzt unseren Bordeinkaufsservice. Heute empfehlen wir Ihnen unser Sonderangebot – ein Set mit drei Parfums zum Preis von zwei. Sie finden unseren Einkaufskatalog in der Sitztasche vor Ihnen."
+        "de": "Wir starten jetzt unseren Bordeinkaufsservice. Heute empfehlen wir Ihnen unser Sonderangebot – ein Set mit drei Parfums zum Preis von zwei. Sie finden unseren Einkaufskatalog in der Sitztasche vor Ihnen.",
+        "pt": "Estamos iniciando agora nosso serviço de compras a bordo. Hoje recomendamos a nossa oferta especial - um conjunto de três perfumes pelo preço de dois. Você pode encontrar o nosso catálogo de compras no bolsão do assento à sua frente."
       }
     ]
   },
@@ -408,12 +442,14 @@ const texts: Text[] = [
       {
         "en": "Ladies and gentleman, this is your captain speaking. We are currently cruising at an altitude of {currentAltitudeFt} feet at an speed of {groundSpeedKm} kilometers per hour. The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}, with a temperature of {destinationCityTemperature} degrees. Sit back, relax and enjoy the rest of the flight.",
         "pl": "Szanowni państwo, tu kapitan. Obecnie przelatujemy na wysokości {currentAltitudeFt} stóp z prędkością {groundSpeedKm} kilometrów na godzinę. [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}, with a temperature of {destinationCityTemperature} degrees.] Proszę usiąść wygodnie, zrelaksować się i cieszyć resztą lotu.",
-        "de": "Sehr geehrte Damen und Herren, hier spricht Ihr Kapitän. Wir fliegen derzeit in einer Höhe von {currentAltitudeFt} Fuß mit einer Geschwindigkeit von {groundSpeedKm} Kilometern pro Stunde. [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}, with a temperature of {destinationCityTemperature} degrees.] Lehnen Sie sich zurück, entspannen Sie sich und genießen Sie den Rest des Fluges."
+        "de": "Sehr geehrte Damen und Herren, hier spricht Ihr Kapitän. Wir fliegen derzeit in einer Höhe von {currentAltitudeFt} Fuß mit einer Geschwindigkeit von {groundSpeedKm} Kilometern pro Stunde. [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}, with a temperature of {destinationCityTemperature} degrees.] Lehnen Sie sich zurück, entspannen Sie sich und genießen Sie den Rest des Fluges.",
+        "pt": "Senhoras e senhores, aqui é o comandante falando. Eu gostaria de compartilhar algumas informações com vocês. No momento, estamos navegando a uma altitude de {currentAltitudeFt} pés a uma velocidade de {groundSpeedKm} quilômetros por hora. [O clima em {destinationCityName} é {destinationCityWeatherHumanDescription}, com temperatura de {destinationCityTemperature} graus.] Sente-se, relaxe e aproveite o restante do voo."
       },
       {
         "en": "Hi, it's me again. I just wanted to share some information with you. We are currently cruising at an altitude of {currentAltitudeFt} feet at an speed of {groundSpeedKm} kilometers per hour. The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}, with a temperature of {destinationCityTemperature} degrees. Enjoy the flight.",
         "pl": "Proszę Państwa, tu kapitan. Chciałem podzielić się z wami kilkoma informacjami. Obecnie przelatujemy na wysokości {currentAltitudeFt} stóp z prędkością {groundSpeedKm} kilometrów na godzinę. [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}, with a temperature of {destinationCityTemperature} degrees.] Miłego lotu.",
-        "de": "Hallo, ich bin es wieder. Ich möchte ein paar Informationen mit Ihnen teilen. Wir fliegen derzeit in einer Höhe von {currentAltitudeFt} Fuß mit einer Geschwindigkeit von {groundSpeedKm} Kilometern pro Stunde. [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}, with a temperature of {destinationCityTemperature} degrees.] Genieße den Flug."
+        "de": "Hallo, ich bin es wieder. Ich möchte ein paar Informationen mit Ihnen teilen. Wir fliegen derzeit in einer Höhe von {currentAltitudeFt} Fuß mit einer Geschwindigkeit von {groundSpeedKm} Kilometern pro Stunde. [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}, with a temperature of {destinationCityTemperature} degrees.] Genieße den Flug.",
+        "pt": "Olá, sou eu de novo. Eu gostaria de compartilhar algumas informações com vocês. No momento, estamos navegando a uma altitude de {currentAltitudeFt} pés a uma velocidade de {groundSpeedKm} quilômetros por hora. [O clima em {destinationCityName} é {destinationCityWeatherHumanDescription}, com temperatura de {destinationCityTemperature} graus.] Obrigado e aproveitem o vôo."
       }
     ]
   },
@@ -427,12 +463,14 @@ const texts: Text[] = [
       {
         "en": "Ladies and gentlemen, we are starting our descent into {destinationCityName}. Please follow the instructions of the cabin crew as we prepare for landing. Thank you.",
         "pl": "[Ladies and gentlemen, we are starting our descent into {destinationCityName}.] Proszę postępować zgodnie z instrukcjami członków załogi. Dziękujemy.",
-        "de": "[Ladies and gentlemen, we are starting our descent into {destinationCityName}.] Bitte folgen Sie den Anweisungen des Kabinenpersonals, während wir uns auf die Landung vorbereiten. Danke schön."
+        "de": "[Ladies and gentlemen, we are starting our descent into {destinationCityName}.] Bitte folgen Sie den Anweisungen des Kabinenpersonals, während wir uns auf die Landung vorbereiten. Danke schön.",
+        "pt": "Senhoras e senhores, estamos iniciando a nossa descida. Por favor, siga as instruções dos comissários enquanto nos preparamos para o pouso. Obrigado."
       },
       {
         "en": "Ladies and gentlemen, we are starting our descent. Please follow the instructions of the cabin crew as we prepare for landing. Thank you.",
         "pl": "Ladies and gentlemen, we are starting our descent. Proszę postępować zgodnie z instrukcjami członków załogi. Dziękujemy.",
-        "de": "Sehr geehrte Damen und Herren, wir beginnen unseren Sinkflug. Bitte folgen Sie den Anweisungen des Kabinenpersonals, während wir uns auf die Landung vorbereiten. Danke schön."
+        "de": "Sehr geehrte Damen und Herren, wir beginnen unseren Sinkflug. Bitte folgen Sie den Anweisungen des Kabinenpersonals, während wir uns auf die Landung vorbereiten. Danke schön.",
+        "pt": "Senhoras e senhores, estamos iniciando a nossa descida para {destinationCityName}. Por favor, siga as instruções dos comissários enquanto nos preparamos para o pouso. Obrigado."
       }
     ]
   },
@@ -447,12 +485,14 @@ const texts: Text[] = [
       {
         "en": "Ladies and gentlemen, as you heard from our captain, we are starting our descent into {destinationCityName}. Please make sure that your seatbelt is fastened and your seat back and tray table are in the upright position. We will collect any remaining service items in a few minutes. Thank you.",
         "pl": "[Ladies and gentlemen, as you heard from our captain, we are starting our descent into {destinationCityName}.] Prosimy o upewnienie się, że pasy są zapięte, a oparcie fotela i stolik są w pozycji pionowej. Wkrótce zbierzemy pozostałe śmieci. Dziękujemy.",
-        "de": "[Ladies and gentlemen, as you heard from our captain, we are starting our descent into {destinationCityName}.] Bitte stellen Sie sicher, dass Ihr Sicherheitsgurt angelegt ist und sich Ihre Rückenlehne und Ihr Tabletttisch in einer aufrechten Position befinden. Wir holen alle verbleibenden Serviceartikel in wenigen Minuten ab. Danke schön."
+        "de": "[Ladies and gentlemen, as you heard from our captain, we are starting our descent into {destinationCityName}.] Bitte stellen Sie sicher, dass Ihr Sicherheitsgurt angelegt ist und sich Ihre Rückenlehne und Ihr Tabletttisch in einer aufrechten Position befinden. Wir holen alle verbleibenden Serviceartikel in wenigen Minuten ab. Danke schön.",
+        "pt": "Senhoras e senhores, como dito pelo comandante, já iniciamos a nossa descida para {destinationCityName}. Certifique-se de que seu cinto de segurança esteja afivelado e que o encosto do seu assento esteja na posição vertical. Feche a trave a mesinha a sua frente. Coletaremos todos os itens de serviço restantes em alguns minutos. Obrigado."
       },
       {
         "en": "Ladies and gentlemen, as you heard from our captain, we are starting our descent. Please make sure that your seatbelt is fastened and your seat back and tray table are in the upright position. We will collect any remaining service items in a few minutes. Thank you.",
         "pl": "Szanowni Państwo, jak mogli Państwo usłyszeć - rozpoczynamy nasze zniżanie. Prosimy o upewnienie się, że pasy są zapięte, a oparcie fotela i stolik są w pozycji pionowej. Wkrótce zbierzemy pozostałe śmieci. Dziękujemy.",
-        "de": "Sehr geehrte Damen und Herren, wie Sie von unserem Kapitän gehört haben, beginnen wir mit dem Sinkflug. Bitte stellen Sie sicher, dass Ihr Sicherheitsgurt angelegt ist und sich Ihre Rückenlehne und Ihr Tabletttisch in einer aufrechten Position befinden. Wir holen alle verbleibenden Serviceartikel in wenigen Minuten ab. Danke schön."
+        "de": "Sehr geehrte Damen und Herren, wie Sie von unserem Kapitän gehört haben, beginnen wir mit dem Sinkflug. Bitte stellen Sie sicher, dass Ihr Sicherheitsgurt angelegt ist und sich Ihre Rückenlehne und Ihr Tabletttisch in einer aufrechten Position befinden. Wir holen alle verbleibenden Serviceartikel in wenigen Minuten ab. Danke schön.",
+        "pt": "Senhoras e senhores, como dito pelo comandante, já iniciamos a nossa descida. Certifique-se de que seu cinto de segurança esteja afivelado e que o encosto do seu assento esteja na posição vertical. Feche a trave a mesinha a sua frente. Coletaremos todos os itens de serviço restantes em alguns minutos. Obrigado."
       }
     ]
   },
@@ -467,12 +507,14 @@ const texts: Text[] = [
       {
         "en": "Ladies and gentlemen, we are starting our descent into {destinationCityName}. Please make sure that your seatbelt is fastened and your seat back and tray table are in the upright position. We will collect any remaining service items in a few minutes. Thank you.",
         "pl": "[Ladies and gentlemen, we are starting our descent into {destinationCityName}.] Prosimy o upewnienie się, że Państwa pasy są zapięte, a oparcie fotela i stolik są w pozycji pionowej. Wkrótce zbierzemy śmieci. Dziękujemy.",
-        "de": "[Ladies and gentlemen, we are starting our descent into {destinationCityName}.] Bitte stellen Sie sicher, dass Ihr Sicherheitsgurt angelegt ist und sich Ihre Rückenlehne und Ihr Tabletttisch in einer aufrechten Position befinden. Wir holen alle verbleibenden Serviceartikel in wenigen Minuten ab. Danke schön."
+        "de": "[Ladies and gentlemen, we are starting our descent into {destinationCityName}.] Bitte stellen Sie sicher, dass Ihr Sicherheitsgurt angelegt ist und sich Ihre Rückenlehne und Ihr Tabletttisch in einer aufrechten Position befinden. Wir holen alle verbleibenden Serviceartikel in wenigen Minuten ab. Danke schön.",
+        "pt": "[Senhoras e senhores, iniciamos a nossa descida para {destinationCityName}]. Certifique-se de que seu cinto de segurança esteja afivelado e que o encosto do seu assento esteja na posição vertical. Feche a trave a mesinha a sua frente. Coletaremos todos os itens de serviço restantes em alguns minutos. Obrigado."
       },
       {
         "en": "Ladies and gentlemen, we are starting our descent. Please make sure that your seatbelt is fastened and your seat back and tray table are in the upright position. We will collect any remaining service items in a few minutes. Thank you.",
         "pl": "Ladies and gentlemen, we are starting our descent. Prosimy o upewnienie się, że Państwa pasy są zapięte, a oparcie fotela i stolik są w pozycji pionowej. Wkrótce zbierzemy śmieci. Dziękujemy.",
-        "de": "Sehr geehrte Damen und Herren, wir beginnen unseren Sinkflug. Bitte stellen Sie sicher, dass Ihr Sicherheitsgurt angelegt ist und sich Ihre Rückenlehne und Ihr Tabletttisch in einer aufrechten Position befinden. Wir holen alle verbleibenden Serviceartikel in wenigen Minuten ab. Danke schön."
+        "de": "Sehr geehrte Damen und Herren, wir beginnen unseren Sinkflug. Bitte stellen Sie sicher, dass Ihr Sicherheitsgurt angelegt ist und sich Ihre Rückenlehne und Ihr Tabletttisch in einer aufrechten Position befinden. Wir holen alle verbleibenden Serviceartikel in wenigen Minuten ab. Danke schön.",
+        "pt": "[Senhoras e senhores, iniciamos a nossa descida.] Certifique-se de que seu cinto de segurança esteja afivelado e que o encosto do seu assento esteja na posição vertical. Feche a trave a mesinha a sua frente. Coletaremos todos os itens de serviço restantes em alguns minutos. Obrigado."
       }
     ]
   },
@@ -484,7 +526,8 @@ const texts: Text[] = [
     "timeout": [5, 10],
     "texts": [
       {
-        "en": "Cabin crew, take your seats for landing."
+        "en": "Cabin crew, take your seats for landing.",
+        "pt": "Tripulação, preparar para o pouso."
       }
     ]
   },
@@ -498,12 +541,14 @@ const texts: Text[] = [
       {
         "en": "Ladies and gentlemen, welcome to {destinationCityName}. Please remain seated with your seatbelt fastened until the aircraft has come to a complete stop and the seatbelt sign has been turned off. Please make sure you have all your personal belongings with you before you leave the aircraft. On behalf of the crew, I would like to thank you for flying with us today. We hope you had a pleasant flight and we look forward to welcoming you on board again soon.",
         "pl": "[Ladies and gentlemen, welcome to {destinationCityName}.] Prosimy o pozostanie na miejscach z zapiętymi pasami bezpieczeństwa, aż samolot całkowicie się zatrzyma i sygnał zapięcia pasów zostanie wyłączony. Upewnijcie się, że macie ze sobą wszystkie swoje rzeczy osobiste przed opuszczeniem samolotu. Dziękuję za lot z nami w dniu dzisiejszym. Mamy nadzieję, że mieli państwo przyjemny lot i mamy nadzieję gościć państwa ponownie w najbliższej przyszłości.",
-        "de": "[Ladies and gentlemen, welcome to {destinationCityName}.] Bitte bleiben Sie mit angelegtem Sicherheitsgurt sitzen, bis das Flugzeug vollständig zum Stillstand gekommen ist und das Anschnallzeichen ausgeschaltet ist. Bitte stellen Sie sicher, dass Sie alle Ihre persönlichen Gegenstände bei sich haben, bevor Sie das Flugzeug verlassen. Im Namen der Crew möchte ich Ihnen dafür danken, dass Sie heute mit uns geflogen sind. Wir hoffen, Sie hatten einen angenehmen Flug und freuen uns, Sie bald wieder an Bord begrüßen zu dürfen."
+        "de": "[Ladies and gentlemen, welcome to {destinationCityName}.] Bitte bleiben Sie mit angelegtem Sicherheitsgurt sitzen, bis das Flugzeug vollständig zum Stillstand gekommen ist und das Anschnallzeichen ausgeschaltet ist. Bitte stellen Sie sicher, dass Sie alle Ihre persönlichen Gegenstände bei sich haben, bevor Sie das Flugzeug verlassen. Im Namen der Crew möchte ich Ihnen dafür danken, dass Sie heute mit uns geflogen sind. Wir hoffen, Sie hatten einen angenehmen Flug und freuen uns, Sie bald wieder an Bord begrüßen zu dürfen.",
+        "pt": "[Senhoras e senhores, bem-vindos a {destinationCityName}.] Por favor, permaneçam sentados com o cinto de segurança afivelados até que a aeronave pare completamente e o aviso de atar os cintos se apague. Certifique-se de ter todos os seus pertences pessoais com você antes de sair da aeronave. Em nome da tripulação, gostaria de agradecer por voar conosco hoje. Esperamos que você tenha tido um voo agradável e esperamos recebê-lo novamente a bordo em breve."
       },
       {
         "en": "Welcome to {destinationCityName}. Please remain seated with your seatbelt fastened until the aircraft has come to a complete stop and the seatbelt sign has been turned off. Please make sure you have all your personal belongings with you before you leave the aircraft. On behalf of the crew, I would like to thank you for flying with us today. We hope you had a pleasant flight and we look forward to welcoming you on board again soon.",
         "pl": "[Welcome to {destinationCityName}.] Prosimy o pozostanie na miejscach z zapiętymi pasami bezpieczeństwa, aż samolot całkowicie się zatrzyma i sygnał zapięcia pasów zostanie wyłączony. Upewnijcie się, że macie ze sobą wszystkie swoje rzeczy osobiste przed opuszczeniem samolotu. Dziękuję za lot z nami w dniu dzisiejszym. Mamy nadzieję, że mieli państwo przyjemny lot i mamy nadzieję gościć państwa ponownie w najbliższej przyszłości.",
-        "de": "[Welcome to {destinationCityName}.] Bitte bleiben Sie mit angelegtem Sicherheitsgurt sitzen, bis das Flugzeug vollständig zum Stillstand gekommen ist und das Anschnallzeichen ausgeschaltet ist. Bitte stellen Sie sicher, dass Sie alle Ihre persönlichen Gegenstände bei sich haben, bevor Sie das Flugzeug verlassen. Im Namen der Crew möchte ich Ihnen dafür danken, dass Sie heute mit uns geflogen sind. Wir hoffen, Sie hatten einen angenehmen Flug und freuen uns, Sie bald wieder an Bord begrüßen zu dürfen."
+        "de": "[Welcome to {destinationCityName}.] Bitte bleiben Sie mit angelegtem Sicherheitsgurt sitzen, bis das Flugzeug vollständig zum Stillstand gekommen ist und das Anschnallzeichen ausgeschaltet ist. Bitte stellen Sie sicher, dass Sie alle Ihre persönlichen Gegenstände bei sich haben, bevor Sie das Flugzeug verlassen. Im Namen der Crew möchte ich Ihnen dafür danken, dass Sie heute mit uns geflogen sind. Wir hoffen, Sie hatten einen angenehmen Flug und freuen uns, Sie bald wieder an Bord begrüßen zu dürfen.",
+        "pt": "[Bem-vindo a {destinationCityName}.] Por favor, permaneça sentado com o cinto de segurança afivelado até que a aeronave pare completamente e o aviso de atar os cintos seja apagado. Certifique-se de ter todos os seus pertences pessoais com você antes de sair da aeronave. Em nome da tripulação, gostaria de agradecer por voar conosco hoje. Esperamos que você tenha tido um voo agradável e esperamos recebê-lo novamente a bordo em breve."
       }
     ]
   },
@@ -517,12 +562,14 @@ const texts: Text[] = [
       {
         "en": "Doors will be opened shortly. Please remember to take all your personal belongings with you. Make sure you have everything you brought on board. Thank you.",
         "pl": "Drzwi zostaną otwarte wkrótce. Prosimy pamiętać, aby zabrać ze sobą wszystkie swoje rzeczy osobiste. Upewnijcie się, że macie ze sobą wszystko, co przynieśliście na pokład. Dziękujemy.",
-        "de": "Die Türen werden in Kürze geöffnet. Bitte denken Sie daran, alle Ihre persönlichen Gegenstände mitzunehmen. Stellen Sie sicher, dass Sie alles dabei haben, was Sie an Bord mitgebracht haben. Danke schön."
+        "de": "Die Türen werden in Kürze geöffnet. Bitte denken Sie daran, alle Ihre persönlichen Gegenstände mitzunehmen. Stellen Sie sicher, dass Sie alles dabei haben, was Sie an Bord mitgebracht haben. Danke schön.",
+        "pt": "As portas serão abertas em breve. Lembre-se de levar todos os seus pertences pessoais com você. Certifique-se de ter tudo o que trouxe a bordo. Obrigado."
       },
       {
         "en": "We have arrived at the gate. Please remember to take all your personal belongings with you. Have a great day.",
         "pl": "Dotarliśmy do bramki. Prosimy pamiętać, aby zabrać ze sobą wszystkie swoje rzeczy osobiste. Miłego dnia.",
-        "de": "Wir sind am Gate angekommen. Bitte denken Sie daran, alle Ihre persönlichen Gegenstände mitzunehmen. Ich wünsche ihnen einen wunderbaren Tag."
+        "de": "Wir sind am Gate angekommen. Bitte denken Sie daran, alle Ihre persönlichen Gegenstände mitzunehmen. Ich wünsche ihnen einen wunderbaren Tag.",
+        "pt": "Chegamos ao portão. Lembrem-se de levar todos os seus pertences pessoais com você, tenham todos um bom dia."
       }
     ]
   }
