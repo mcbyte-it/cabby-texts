@@ -3,6 +3,7 @@ type Text = {
   weight?: number; // >= 1, default 1. This may be useful when determining which text to play when multiple texts are in the same category, and one of them should be played more often than others (basing on conditions for example).
   chanceOfPlaying?: number; // 0 - 1. If set, the text will be played with this chance. If not set, the text will always be played.
   runtimeGenerated?: boolean; // If set to true, the text will be generated at runtime, not in pre-flight generation. This may be useful when the text should be generated based on the current state of the flight (e.g. captain random information about the flight).
+  onlyPriorityLanguage?: boolean; // If set to true, the text will be played only in the priority language.
 
   // Trigger event
   trigger: {
@@ -345,9 +346,13 @@ const texts: Text[] = [
     "category": "captain-ready-for-takeoff-message",
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_TAKEOFF']},
     "timeout": [3, 5],
+    "onlyPriorityLanguage": true,
     "texts": [
       {
-        "en": "Cabin crew, prepare for takeoff."
+        "en": "Cabin crew, prepare for takeoff.",
+        "pl": "Załoga pokładowa, przygotujcie się do startu.",
+        "de": "Kabinenpersonal, bereitet euch auf den Start vor.",
+        "pt": "Tripulação de cabine, prepare-se para a decolagem."
       }
     ]
   },
@@ -524,10 +529,13 @@ const texts: Text[] = [
     "category": "captain-crew-take-seats",
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_FINAL']},
     "timeout": [5, 10],
+    "onlyPriorityLanguage": true,
     "texts": [
       {
         "en": "Cabin crew, take your seats for landing.",
-        "pt": "Tripulação, preparar para o pouso."
+        "pl": "Załoga pokładowa, zająć miejsca do lądowania.",
+        "de": "Kabinenpersonal, nehmen Sie Ihre Sitze für die Landung ein.",
+        "pt": "Tripulação, preparar para o pouso.",
       }
     ]
   },
