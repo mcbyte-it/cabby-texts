@@ -53,6 +53,7 @@ const texts: Text[] = [
       {"type": "flightState", "value": ["FLIGHT_CRUISE"]}
     ],
     "timeout": [2, 5],
+    "runtimeGenerated": true,
     "texts": [
       {
         "en": "Ladies and gentlemen, we are expecting some light turbulence ahead. Please return to your seats and fasten your seat belts.",
@@ -81,6 +82,7 @@ const texts: Text[] = [
       {"type": "flightState", "value": ["FLIGHT_CRUISE"]}
     ],
     "timeout": [2, 5],
+    "runtimeGenerated": true,
     "texts": [
       {
         "en": "Ladies and gentlemen, our captain has just informed us that we are expecting some light turbulence ahead. Please return to your seats and remain seated until the seatbelt sign is turned off. Use of the lavatories is not allowed at this time.",
@@ -110,6 +112,7 @@ const texts: Text[] = [
       {"type": "settingNotActive", "value": ["captain-seatbelt-sign-change-information"]}
     ],
     "timeout": [2, 5],
+    "runtimeGenerated": true,
     "texts": [
       {
         "en": "Ladies and gentlemen, the captain has turned on the seatbelt sign. Please return to your seats and fasten your seat belts.",
@@ -132,6 +135,7 @@ const texts: Text[] = [
       {"type": "flightState", "value": ["FLIGHT_CLIMB", "FLIGHT_CRUISE"]}
     ],
     "timeout": [2, 5],
+    "runtimeGenerated": true,
     "texts": [
       {
         "en": "Ladies and gentlemen, the captain has turned off the seatbelt sign. You may now move around the cabin, but we recommend that you keep your seatbelt fastened while seated in case of unexpected turbulence.",
@@ -162,6 +166,7 @@ const texts: Text[] = [
       {"type": "flightState", "value": ["FLIGHT_STARTED"]}
     ],
     "timeout": [10, 20],
+    "runtimeGenerated": true,
     "texts": [
       {
         "en": "Ladies and gentlemen, we are currently experiencing a delay. We apologize for the inconvenience and we will keep you updated on the progress. We are working hard to get you on your way as soon as possible. Thank you for your patience.",
@@ -184,6 +189,7 @@ const texts: Text[] = [
       {"type": "runtimeFlightMetadata", "key": "arrivalDelay", "value": [1]}
     ],
     "timeout": [21, 21],
+    "runtimeGenerated": true,
     "texts": [
       {
         "en": "We would like to apologize you again for the delay. We hope that you had a pleasant flight and we are looking forward to seeing you again soon.",
