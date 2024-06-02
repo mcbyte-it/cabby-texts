@@ -7,6 +7,9 @@ You can find more information about the Cabby [on the official website](https://
 ## Currently supported languages
 - English (en)
 - German (de)
+- Spanish (es)
+- French (fr)
+- Italian (it)
 - Portuguese (pt)
 - Polish (pl)
 
