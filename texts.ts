@@ -4,6 +4,7 @@ type Text = {
   chanceOfPlaying?: number; // 0 - 1. If set, the text will be played with this chance. If not set, the text will always be played.
   runtimeGenerated?: boolean; // If set to true, the text will be generated at runtime, not in pre-flight generation. This may be useful when the text should be generated based on the current state of the flight (e.g. captain random information about the flight).
   onlyPriorityLanguage?: boolean; // If set to true, the text will be played only in the priority language.
+  numberOfEagerTextGenerations?: number; // Number of eager text generations. If some message can be played multiple times (like Seatbelt sign change), you can set this number to generate multiple texts in advance.
 
   // Trigger event
   trigger: {
@@ -53,6 +54,7 @@ const texts: Text[] = [
       {"type": "flightState", "value": ["FLIGHT_CRUISE"]}
     ],
     "timeout": [2, 5],
+    "numberOfEagerTextGenerations": 2,
     "texts": [
       {
         "en": "Ladies and gentlemen, we are expecting some light turbulence ahead. Please return to your seats and fasten your seat belts.",
@@ -90,6 +92,7 @@ const texts: Text[] = [
       {"type": "flightState", "value": ["FLIGHT_CRUISE"]}
     ],
     "timeout": [2, 5],
+    "numberOfEagerTextGenerations": 2,
     "texts": [
       {
         "en": "Ladies and gentlemen, our captain has just informed us that we are expecting some light turbulence ahead. Please return to your seats and remain seated until the seatbelt sign is turned off. Use of the lavatories is not allowed at this time.",
@@ -128,6 +131,7 @@ const texts: Text[] = [
       {"type": "settingNotActive", "value": ["captain-seatbelt-sign-change-information"]}
     ],
     "timeout": [2, 5],
+    "numberOfEagerTextGenerations": 2,
     "texts": [
       {
         "en": "Ladies and gentlemen, the captain has turned on the seatbelt sign. Please return to your seats and fasten your seat belts.",
@@ -156,6 +160,7 @@ const texts: Text[] = [
       {"type": "flightState", "value": ["FLIGHT_CLIMB", "FLIGHT_CRUISE"]}
     ],
     "timeout": [2, 5],
+    "numberOfEagerTextGenerations": 2,
     "texts": [
       {
         "en": "Ladies and gentlemen, the captain has turned off the seatbelt sign. You may now move around the cabin, but we recommend that you keep your seatbelt fastened while seated in case of unexpected turbulence.",
